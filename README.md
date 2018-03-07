@@ -36,7 +36,11 @@ Install with `bundle install`.
 - Add the relationship to a User
 - Add User ownership to Post controller
 
+### Links
+- Plain and Simpl Client repository: https://github.com/lydivetteroldan/plain-and-simpl
+- Plain and Simpl Client site: https://lydivetteroldan.github.io/plain-and-simpl/
+- Plain and Simpl API on Heroku: http://plain-and-simpl.herokuapp.com/
+
 ### Additional Resources
-- [rails-heroku-setup-guide](https://git.generalassemb.ly/ga-wdi-boston/rails-heroku-setup-guide)
 - http://guides.rubyonrails.org/api_app.html
 - https://blog.codeship.com/building-a-json-api-with-rails-5/
