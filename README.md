@@ -27,12 +27,14 @@ Install with `bundle install`.
 -   [`postgres`](http://www.postgresql.org)
 
 ### Unsolved Issues for Future Iterations
-- ~~Scaffold Post resource~~ (done, 3/7)
-- ~~Test Post's end points with curl scripts~~ (done, 3/7)
-- Update Post controller to inherit from OpenRead controller
-- Test Post's end points with curl scripts
-- Add the relationship to a User
-- Add User ownership to Post controller
+- ~~Scaffold Post resource~~ (done, 3/7/2018)
+- ~~Test Post's end points with curl scripts~~ (done, 3/7/2018)
+- ~~Update Post controller to inherit from OpenRead controller~~ (done, 3/8/2018)
+- ~~Test Post's end points with curl scripts~~  (done, 3/8/2018)
+- ~~Add the relationship to a User~~  (done, 3/8/2018)
+- ~~Add User ownership to Post controller~~  (done, 3/8/2018)
+- Test current API functionality with Client after front-end development
+- Allow only 1 user to manage posts
 
 ### Links
 - Plain and Simpl Client repository: https://github.com/lydivetteroldan/plain-and-simpl
