@@ -1,5 +1,7 @@
-class PostsController < ApplicationController
-  before_action :set_post, only: [:show, :update, :destroy]
+# frozen_string_literal: true
+
+class PostsController < OpenReadController
+  before_action :set_post, only: [:update, :destroy]
 
   # GET /posts
   def index
@@ -15,10 +17,10 @@ class PostsController < ApplicationController
 
   # POST /posts
   def create
-    @post = Post.new(post_params)
+    @post = current_user.posts.build(post_params)
 
     if @post.save
-      render json: @post, status: :created, location: @post
+      render json: @post, status: :created
     else
       render json: @post.errors, status: :unprocessable_entity
     end
@@ -41,7 +43,7 @@ class PostsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_post
-      @post = Post.find(params[:id])
+      @post = current_user.posts.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
