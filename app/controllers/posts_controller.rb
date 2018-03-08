@@ -12,6 +12,8 @@ class PostsController < OpenReadController
 
   # GET /posts/1
   def show
+    @post = Post.find(params[:id])
+
     render json: @post
   end
 
