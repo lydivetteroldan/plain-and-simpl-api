@@ -1,4 +1,4 @@
-### Plain and Simpl API
+# Plain and Simpl API
 
 This is the Git repository for Plain and Simpl API, a rails API for a blog posting single-page application.
 
@@ -29,7 +29,7 @@ Install with `bundle install`.
 ### Unsolved Issues for Future Iterations
 - ~~Scaffold Post resource~~ (done, 3/7)
 - ~~Test Post's end points with curl scripts~~ (done, 3/7)
-- Update Post controller to inherit from Protected or OpenRead controller
+- Update Post controller to inherit from OpenRead controller
 - Test Post's end points with curl scripts
 - Add the relationship to a User
 - Add User ownership to Post controller
